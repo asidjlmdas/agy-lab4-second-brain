@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Second Brain</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/" aria-label="На головну">Second Brain</a>
+    <label class="search">
+      <span class="sr-only">Пошук нотаток</span>
+      <input id="search" type="search" placeholder="Пошук за назвою, тегом або текстом…" autocomplete="off">
+    </label>
+    <a class="btn primary" href="#/new">+ Нова нотатка</a>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar" aria-label="Фільтри">
+      <section>
+        <h2>Категорії</h2>
+        <ul id="categories" class="filter-list"></ul>
+      </section>
+      <section>
+        <h2>Статус</h2>
+        <ul id="statuses" class="filter-list"></ul>
+      </section>
+      <section>
+        <h2>Теги</h2>
+        <div id="tags" class="tag-cloud"></div>
+      </section>
+      <button id="reset" class="btn ghost" type="button">Скинути фільтри</button>
+    </aside>
+
+    <main id="main" tabindex="-1"></main>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

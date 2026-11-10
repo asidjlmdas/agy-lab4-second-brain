@@ -1,0 +1,17 @@
+# залежності та службові файли
+node_modules/
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# локальні налаштування та секрети — ніколи не комітити
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# тимчасові файли
+tmp/
+*.log
+*.swp

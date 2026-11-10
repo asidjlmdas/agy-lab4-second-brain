@@ -1,0 +1,16 @@
+{
+  "name": "agy-lab4-second-brain",
+  "version": "1.0.0",
+  "description": "Локальний персональний Second Brain (PARA + Markdown) — лабораторна робота №4, АСКС",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "validate": "node src/validate.js"
+  },
+  "license": "MIT"
+}
